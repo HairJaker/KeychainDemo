@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "NSMutableDictionary+CTM_RequestDic.h"
 
 @interface ViewController ()
 
@@ -17,8 +18,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    NSMutableDictionary * requestDic = [NSMutableDictionary requestDictionaryWithToken:@""];
+    
+    [requestDic setValue:@"123456" forKey:@"password"]; 
 }
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
