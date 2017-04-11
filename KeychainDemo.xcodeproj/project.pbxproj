@@ -7,12 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED6B9B891571F71EAC3FFD4B /* libPods-KeychainDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BAB2483ADF9AFDF84436BCE /* libPods-KeychainDemo.a */; };
 		FA1E3D001E232D5B00965057 /* UIDevice+CTM_DeviceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1E3CFF1E232D5B00965057 /* UIDevice+CTM_DeviceModel.m */; };
 		FA1E3D031E23316B00965057 /* CTM_Keychain.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1E3D021E23316B00965057 /* CTM_Keychain.m */; };
 		FA1E3D061E2331E400965057 /* NSMutableDictionary+CTM_RequestDic.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1E3D051E2331E400965057 /* NSMutableDictionary+CTM_RequestDic.m */; };
+		FA1E3D0B1E2342EA00965057 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA1E3D0A1E2342EA00965057 /* SystemConfiguration.framework */; };
+		FA1E3D0D1E2342F500965057 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA1E3D0C1E2342F500965057 /* MobileCoreServices.framework */; };
+		FA1E3D0F1E23628E00965057 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA1E3D0E1E23628E00965057 /* CoreLocation.framework */; };
+		FA1E3D111E23629B00965057 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA1E3D101E23629B00965057 /* Security.framework */; };
+		FA1E3D141E23711D00965057 /* CTM_HTTPCommunicate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1E3D131E23711D00965057 /* CTM_HTTPCommunicate.m */; };
+		FA1E3D171E23778700965057 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1E3D161E23778700965057 /* MBProgressHUD.m */; };
+		FA1E3D1A1E23779100965057 /* MBProgressHUD+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1E3D191E23779100965057 /* MBProgressHUD+Add.m */; };
+		FAE02A361E30AE9300D5C014 /* JCM_TabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE02A351E30AE9300D5C014 /* JCM_TabbarController.m */; };
+		FAE02A381E30AF5200D5C014 /* libAFNetworking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE02A371E30AF5200D5C014 /* libAFNetworking.a */; };
 		FAF4EBEF1E1E29DE00055F11 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF4EBEE1E1E29DE00055F11 /* main.m */; };
 		FAF4EBF21E1E29DE00055F11 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF4EBF11E1E29DE00055F11 /* AppDelegate.m */; };
-		FAF4EBF51E1E29DE00055F11 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF4EBF41E1E29DE00055F11 /* ViewController.m */; };
 		FAF4EBF81E1E29DE00055F11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF4EBF61E1E29DE00055F11 /* Main.storyboard */; };
 		FAF4EBFA1E1E29DE00055F11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAF4EBF91E1E29DE00055F11 /* Assets.xcassets */; };
 		FAF4EBFD1E1E29DE00055F11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF4EBFB1E1E29DE00055F11 /* LaunchScreen.storyboard */; };
@@ -38,18 +47,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D65F320050E399AF78CC288 /* Pods-KeychainDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeychainDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KeychainDemo/Pods-KeychainDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		6BAB2483ADF9AFDF84436BCE /* libPods-KeychainDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KeychainDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5D80D4922D50309106E87E9 /* Pods-KeychainDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeychainDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-KeychainDemo/Pods-KeychainDemo.release.xcconfig"; sourceTree = "<group>"; };
 		FA1E3CFE1E232D5B00965057 /* UIDevice+CTM_DeviceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+CTM_DeviceModel.h"; sourceTree = "<group>"; };
 		FA1E3CFF1E232D5B00965057 /* UIDevice+CTM_DeviceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+CTM_DeviceModel.m"; sourceTree = "<group>"; };
 		FA1E3D011E23316B00965057 /* CTM_Keychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTM_Keychain.h; sourceTree = "<group>"; };
 		FA1E3D021E23316B00965057 /* CTM_Keychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTM_Keychain.m; sourceTree = "<group>"; };
 		FA1E3D041E2331E400965057 /* NSMutableDictionary+CTM_RequestDic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+CTM_RequestDic.h"; sourceTree = "<group>"; };
 		FA1E3D051E2331E400965057 /* NSMutableDictionary+CTM_RequestDic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+CTM_RequestDic.m"; sourceTree = "<group>"; };
+		FA1E3D0A1E2342EA00965057 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		FA1E3D0C1E2342F500965057 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		FA1E3D0E1E23628E00965057 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		FA1E3D101E23629B00965057 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		FA1E3D121E23711D00965057 /* CTM_HTTPCommunicate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTM_HTTPCommunicate.h; sourceTree = "<group>"; };
+		FA1E3D131E23711D00965057 /* CTM_HTTPCommunicate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTM_HTTPCommunicate.m; sourceTree = "<group>"; };
+		FA1E3D151E23778700965057 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		FA1E3D161E23778700965057 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		FA1E3D181E23779100965057 /* MBProgressHUD+Add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+Add.h"; sourceTree = "<group>"; };
+		FA1E3D191E23779100965057 /* MBProgressHUD+Add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+Add.m"; sourceTree = "<group>"; };
+		FA1E3D1B1E238BA700965057 /* KeychainDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KeychainDemo.entitlements; sourceTree = "<group>"; };
+		FAE02A341E30AE9300D5C014 /* JCM_TabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCM_TabbarController.h; sourceTree = "<group>"; };
+		FAE02A351E30AE9300D5C014 /* JCM_TabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCM_TabbarController.m; sourceTree = "<group>"; };
+		FAE02A371E30AF5200D5C014 /* libAFNetworking.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAFNetworking.a; path = "Pods/../build/Debug-iphoneos/AFNetworking/libAFNetworking.a"; sourceTree = "<group>"; };
 		FAF4EBEA1E1E29DE00055F11 /* KeychainDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeychainDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAF4EBEE1E1E29DE00055F11 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FAF4EBF01E1E29DE00055F11 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FAF4EBF11E1E29DE00055F11 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FAF4EBF31E1E29DE00055F11 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FAF4EBF41E1E29DE00055F11 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		FAF4EBF71E1E29DE00055F11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FAF4EBF91E1E29DE00055F11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAF4EBFC1E1E29DE00055F11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -67,6 +91,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAE02A381E30AF5200D5C014 /* libAFNetworking.a in Frameworks */,
+				FA1E3D111E23629B00965057 /* Security.framework in Frameworks */,
+				FA1E3D0F1E23628E00965057 /* CoreLocation.framework in Frameworks */,
+				FA1E3D0D1E2342F500965057 /* MobileCoreServices.framework in Frameworks */,
+				FA1E3D0B1E2342EA00965057 /* SystemConfiguration.framework in Frameworks */,
+				ED6B9B891571F71EAC3FFD4B /* libPods-KeychainDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,9 +117,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		51D5BCB529166CA7AF05427D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1D65F320050E399AF78CC288 /* Pods-KeychainDemo.debug.xcconfig */,
+				A5D80D4922D50309106E87E9 /* Pods-KeychainDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FA1E3D091E2342E900965057 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAE02A371E30AF5200D5C014 /* libAFNetworking.a */,
+				FA1E3D101E23629B00965057 /* Security.framework */,
+				FA1E3D0E1E23628E00965057 /* CoreLocation.framework */,
+				FA1E3D0C1E2342F500965057 /* MobileCoreServices.framework */,
+				FA1E3D0A1E2342EA00965057 /* SystemConfiguration.framework */,
+				6BAB2483ADF9AFDF84436BCE /* libPods-KeychainDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FAF4EBE11E1E29DE00055F11 = {
 			isa = PBXGroup;
 			children = (
+				FAE02A341E30AE9300D5C014 /* JCM_TabbarController.h */,
+				FAE02A351E30AE9300D5C014 /* JCM_TabbarController.m */,
+				FA1E3D121E23711D00965057 /* CTM_HTTPCommunicate.h */,
+				FA1E3D131E23711D00965057 /* CTM_HTTPCommunicate.m */,
+				FA1E3D151E23778700965057 /* MBProgressHUD.h */,
+				FA1E3D161E23778700965057 /* MBProgressHUD.m */,
+				FA1E3D181E23779100965057 /* MBProgressHUD+Add.h */,
+				FA1E3D191E23779100965057 /* MBProgressHUD+Add.m */,
 				FA1E3D041E2331E400965057 /* NSMutableDictionary+CTM_RequestDic.h */,
 				FA1E3D051E2331E400965057 /* NSMutableDictionary+CTM_RequestDic.m */,
 				FA1E3D011E23316B00965057 /* CTM_Keychain.h */,
@@ -100,6 +160,8 @@
 				FAF4EC061E1E29DE00055F11 /* KeychainDemoTests */,
 				FAF4EC111E1E29DE00055F11 /* KeychainDemoUITests */,
 				FAF4EBEB1E1E29DE00055F11 /* Products */,
+				FA1E3D091E2342E900965057 /* Frameworks */,
+				51D5BCB529166CA7AF05427D /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -116,10 +178,9 @@
 		FAF4EBEC1E1E29DE00055F11 /* KeychainDemo */ = {
 			isa = PBXGroup;
 			children = (
+				FA1E3D1B1E238BA700965057 /* KeychainDemo.entitlements */,
 				FAF4EBF01E1E29DE00055F11 /* AppDelegate.h */,
 				FAF4EBF11E1E29DE00055F11 /* AppDelegate.m */,
-				FAF4EBF31E1E29DE00055F11 /* ViewController.h */,
-				FAF4EBF41E1E29DE00055F11 /* ViewController.m */,
 				FAF4EBF61E1E29DE00055F11 /* Main.storyboard */,
 				FAF4EBF91E1E29DE00055F11 /* Assets.xcassets */,
 				FAF4EBFB1E1E29DE00055F11 /* LaunchScreen.storyboard */,
@@ -162,9 +223,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FAF4EC171E1E29DE00055F11 /* Build configuration list for PBXNativeTarget "KeychainDemo" */;
 			buildPhases = (
+				F683A7A1C3340472D7ECF60C /* [CP] Check Pods Manifest.lock */,
 				FAF4EBE61E1E29DE00055F11 /* Sources */,
 				FAF4EBE71E1E29DE00055F11 /* Frameworks */,
 				FAF4EBE81E1E29DE00055F11 /* Resources */,
+				3FC0760E327B39BE22B7C03F /* [CP] Embed Pods Frameworks */,
+				81179BE444836942354CFB3F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -224,6 +288,11 @@
 						CreatedOnToolsVersion = 8.2;
 						DevelopmentTeam = 963B3KMR3V;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					FAF4EC021E1E29DE00055F11 = {
 						CreatedOnToolsVersion = 8.2;
@@ -284,6 +353,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3FC0760E327B39BE22B7C03F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KeychainDemo/Pods-KeychainDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81179BE444836942354CFB3F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KeychainDemo/Pods-KeychainDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F683A7A1C3340472D7ECF60C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FAF4EBE61E1E29DE00055F11 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -291,10 +408,13 @@
 			files = (
 				FA1E3D031E23316B00965057 /* CTM_Keychain.m in Sources */,
 				FA1E3D001E232D5B00965057 /* UIDevice+CTM_DeviceModel.m in Sources */,
-				FAF4EBF51E1E29DE00055F11 /* ViewController.m in Sources */,
+				FA1E3D141E23711D00965057 /* CTM_HTTPCommunicate.m in Sources */,
+				FA1E3D1A1E23779100965057 /* MBProgressHUD+Add.m in Sources */,
+				FAE02A361E30AE9300D5C014 /* JCM_TabbarController.m in Sources */,
 				FA1E3D061E2331E400965057 /* NSMutableDictionary+CTM_RequestDic.m in Sources */,
 				FAF4EBF21E1E29DE00055F11 /* AppDelegate.m in Sources */,
 				FAF4EBEF1E1E29DE00055F11 /* main.m in Sources */,
+				FA1E3D171E23778700965057 /* MBProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,7 +509,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -430,7 +550,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -439,29 +559,51 @@
 		};
 		FAF4EC181E1E29DE00055F11 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D65F320050E399AF78CC288 /* Pods-KeychainDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = KeychainDemo/KeychainDemo.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 963B3KMR3V;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/AFNetworking";
 				INFOPLIST_FILE = KeychainDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_QUOTE_LINKER_ARGUMENTS_FOR_COMPILER_DRIVER = YES;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/AFNetworking",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/AFNetworking",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jingcaimao.KeychainDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Debug;
 		};
 		FAF4EC191E1E29DE00055F11 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5D80D4922D50309106E87E9 /* Pods-KeychainDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = KeychainDemo/KeychainDemo.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 963B3KMR3V;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/AFNetworking";
 				INFOPLIST_FILE = KeychainDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/AFNetworking",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jingcaimao.KeychainDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Release;
 		};

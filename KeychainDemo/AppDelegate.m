@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "JCM_TabbarController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    JCM_TabbarController * tab = [[JCM_TabbarController alloc]init];
+    UINavigationController * nv = [[UINavigationController alloc]initWithRootViewController:tab];
+    [self.window setRootViewController:nv];
+    [self.window makeKeyAndVisible];
+    
+    
     return YES;
 }
 
